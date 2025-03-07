@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MainHeaderBackground from "./main-header-background";
 
-import logo from "@/assets/logo.png";
+import logo from "../../assets/logo.png";
 import styles from "./main-header.module.css";
 import NavLink from "./nav-link";
 
