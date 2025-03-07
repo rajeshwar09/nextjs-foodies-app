@@ -1,4 +1,4 @@
-import styles from "./main-header-background.module.css"
+import styles from "./main-header-background.module.css";
 
 const MainHeaderBackground = () => {
   return (
