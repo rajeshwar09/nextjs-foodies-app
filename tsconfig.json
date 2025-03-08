@@ -30,7 +30,7 @@
     "**/*.tsx",
     "**/*.jsx",
     "**/*.js"
-, "app/meals/[meal-slug]/page.jsx"  ],
+, "app/meals/[mealSlug]/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
