@@ -1,12 +1,12 @@
 "use client"
-import { useFormState } from "react-dom";
 import ImagePicker from "../../../components/meals/image-picker";
 import MealsFormSubmit from "../../../components/meals/meals-form-submit";
 import { shareMeal } from "../../../lib/action";
 import classes from "./page.module.css";
+import { useActionState } from "react";
 
 const ShareMealPage = () => {
-  const [state, formAction] = useFormState(shareMeal, { message: null });
+  const [state, formAction] = useActionState(shareMeal, { message: null });
   return (
     <>
       <header className={classes.header}>
